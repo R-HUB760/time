@@ -27,3 +27,11 @@ function examTime(){
 examTime();
 
 setInterval(examTime, 1000);
+
+// Year for footer
+let year = document.querySelector('#year');
+
+let yearT = new Date();
+let currentYear = yearT.getFullYear();
+
+year.innerHTML = currentYear;
