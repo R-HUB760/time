@@ -1,103 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Exam</title>
-    <style>
-      body {
-        text-align: center;
-        background: url("bg-con.png");
-      }
-      .color {
-        padding: 10px;
-        margin: 10px;
-        background: #0c2461;
-        color: rgb(225, 208, 208);
-      }
-      .color span {
-        color: rgb(79, 216, 5);
-      }
-      h1, .depart {
-        color: rgb(214, 245, 200);
-      }
-      .depart {
-        color: rgb(5, 5, 252);
-      }
-      h2 {
-        background: url("bg.png") no-repeat center;
-        padding: 10px 10px;
-        background-size: 1000px;
-      }
-    </style>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Exam Title -->
-    <h1 class="mt-2">Noakhali Science and Technology University<h2 class="depart mt-5">Department of English <br> Course Title: New Literatures in English <br />
-      Course Code: 4107</h2></h1>
-    <br />
-    
 
-    <!-- Time to Left -->
-    <h2 class="course">
-      
-      Our Next Exam Time Left
-    </h2>
-    <br />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Exam</title>
 
-    <div class="container">
-      <div class="row fs-3">
-        <div class="col shadow color">
-          <div>
-            <span class="day"></span><br />
-            Day
-          </div>
-        </div>
-        <div class="col shadow color">
-          <div>
-            <span class="hours"></span><br />
-            Hours
-          </div>
-        </div>
-        <div class="col shadow color">
-          <div>
-            <span class="minutes"></span><br />
-            Minutes
-          </div>
-        </div>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 
-        <div class="col shadow color">
-          <div>
-            <span class="seconds"></span><br />
-            Seconds
-          </div>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Exam Title -->
+  <h1 class="mt-2">Noakhali Science and Technology University
+    <h2 class="depart mt-5">Department of English <br> Course Title: New Literatures in English <br />
+      Course Code: 4107</h2>
+  </h1>
+  <br />
+
+
+  <!-- Time to Left -->
+
+  <h2 class="course">
+    Our Next Exam Time Left
+  </h2>
+  <br />
+
+  <div class="container">
+    <div class="row fs-3">
+
+      <!-- Days -->
+      <div class="col shadow color">
+        <div>
+          <span class="day"></span><br />
+          Day
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="col shadow color">
+        <div>
+          <span class="hours"></span><br />
+          Hours
+        </div>
+      </div>
+
+      <!-- Minutes -->
+      <div class="col shadow color">
+        <div>
+          <span class="minutes"></span><br />
+          Minutes
+        </div>
+      </div>
+
+      <!-- Seconds -->
+      <div class="col shadow color">
+        <div>
+          <span class="seconds"></span><br />
+          Seconds
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div class="container mt-5">
-      <div class="row ">
-        <div class="col shadow"" style="background-color: #0c2461; color:white; margin:10px; padding: 5px;">
-          <div>
-            <h4>@abdur github <span id="year"></span> | Developed by Abdur Rahim</h4>
-          </div>
+  <!-- Footer -->
+  <div class="container mt-5">
+    <div class="row ">
+      <div class="col shadow"" style=" background-color: #0c2461; color:white; margin:10px; padding: 5px;">
+        <div>
+          <h4>@abdur github <span id="year">2020</span> | Developed by Abdur Rahim</h4>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="time.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <!-- Custom JS -->
+  <script src="time.js"></script>
+
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
 </html>
