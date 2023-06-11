@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background: url("bg-con.png");
+}
+.color {
+  padding: 10px;
+  margin: 10px;
+  background: #0c2461;
+  color: rgb(225, 208, 208);
+}
+.color span {
+  color: rgb(79, 216, 5);
+}
+h1, .depart {
+  color: rgb(214, 245, 200);
+}
+.depart {
+  color: rgb(5, 5, 252);
+}
+h2 {
+  background: url("bg.png") no-repeat center;
+  padding: 10px 10px;
+  background-size: 1000px;
+}
